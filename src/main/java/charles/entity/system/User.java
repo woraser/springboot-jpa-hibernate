@@ -57,8 +57,8 @@ public class User extends DeletedSupportedEntity {
     private List<Role> roles;
 
     @ManyToMany
-    @JoinTable(name = "sys_user_premission", joinColumns = @JoinColumn(name = "sys_user_id"), inverseJoinColumns = @JoinColumn(name = "sys_premission_id"))
-    private List<Premission> premissions;
+    @JoinTable(name = "sys_user_resource", joinColumns = @JoinColumn(name = "sys_user_id"), inverseJoinColumns = @JoinColumn(name = "sys_resource_id"))
+    private List<Resource> resources;
 
     public Long getId() {
         return id;
@@ -132,11 +132,11 @@ public class User extends DeletedSupportedEntity {
         this.roles = roles;
     }
 
-    public List<Premission> getPremissions() {
-        return premissions;
+    public List<Resource> getResources() {
+        return resources;
     }
 
-    public void setPremissions(List<Premission> premissions) {
-        this.premissions = premissions;
+    public void setResources(List<Resource> resources) {
+        this.resources = resources;
     }
 }

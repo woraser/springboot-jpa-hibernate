@@ -1,0 +1,9 @@
+Manifest-Version: 1.0
+Implementation-Title: spring-boot-mysql-springdatajpa-hibernate
+Implementation-Version: 0.0.1-SNAPSHOT
+Implementation-Vendor-Id: netgloo
+Build-Jdk: 1.8.0_51
+Built-By: chenhui
+Created-By: IntelliJ IDEA
+Main-Class: charles.Application
+

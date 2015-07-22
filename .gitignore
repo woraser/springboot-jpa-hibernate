@@ -13,3 +13,12 @@ target/MANIFEST.MF
 *.xml
 .idea/misc.xml
 target/classes/application.properties
+.idea/workspace.xml
+
+.idea/workspace.xml
+
+target/classes/charles/system/controller/systemController.class
+
+target/classes/charles/controllers/MainController.class
+
+target/classes/charles/system/controller/systemController.class

@@ -69,8 +69,8 @@
 			<div class="form-actions">
 				<span class="pull-left" style="width: 33%"><a href="#"
 					class="flip-link btn btn-info" id="to-recover">忘记密码？</a></span>
-					<span class="pull-left" style="width: 33%"><a href="install.shtml"
-					class="flip-link btn btn-danger" id="to-recover">一键初始化系统</a></span>
+					<%--<span class="pull-left" style="width: 33%"><a href="install.shtml"--%>
+					<%--class="flip-link btn btn-danger" id="to-recover">一键初始化系统</a></span>--%>
 					 <span
 					class="pull-right"><a type="submit"
 					href="javascript:checkUserForm()" class="btn btn-success">登&nbsp;&nbsp;录</a></span>

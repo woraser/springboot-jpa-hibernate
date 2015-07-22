@@ -1,0 +1,15 @@
+*.js
+*.css
+*.png
+
+.idea/
+
+.target
+
+target/
+
+*.name
+target/MANIFEST.MF
+*.xml
+.idea/misc.xml
+target/classes/application.properties
